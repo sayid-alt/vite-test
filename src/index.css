@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  button{
+    @apply rounded-xl px-5 py-1 border border-black
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto
+  }
+}
