@@ -1,15 +1,12 @@
 {
   "name": "react-vite-2",
   "private": true,
-  "homepage": "https://sayid-alt.github.io/react-vite-2",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@types/react-router": "^5.1.20",
